@@ -1,0 +1,23 @@
+# 12 normally
+PARAM	cores	12
+# 50GB normally
+PARAM	mem	50000
+# Options are low, med, high, orbigmemm 
+PARAM	part	bigmemm
+# Total of starCores and bamCores must equal cores parameter
+PARAM	starCores	8
+PARAM	bamCores	4
+# Options are mm10 or hg19
+PARAM	genome	mm10
+# Options are 50 or 100
+PARAM	length	50
+# Options are single or paired
+PARAM	type	single
+# Raw directory where fastq files are located
+PARAM	rawDir	<in_path>
+PARAM outDir	<out_path>
+# Adapter for trimming. Needs to be full path
+# Options are NexteraPE-PE.fa  TruSeq2-PE.fa	TruSeq2-SE.fa  TruSeq3-PE-2.fa	TruSeq3-PE.fa  TruSeq3-SE.fa
+PARAM	adapter	<path>/TruSeq3-PE.fa
+PARAM	fastqcAdapters	<path>/adapter_list.txt 	
+PARAM	fastqcContaminants	<path>/contaminant_list.txt 
