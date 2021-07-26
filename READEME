@@ -1,0 +1,7 @@
+Usage: perl analyzeRNA.pl [-h] -p <parameters> -d <sampleTable>
+Options:
+   [-v|--version]                                 : Print out just the version.
+   [-h|--help]                                    : Print this miniManual.
+   [-d|--sampleTable]   <tab-delimited file>        : Sample table with all samples 
+   [-p|--parameters]      <parameters file>            : Parameters file.
+	
